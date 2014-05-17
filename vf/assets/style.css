@@ -1,0 +1,129 @@
+body {
+    font-family: tahoma, helvetica, arial, sans-serif;
+    font-size: 11px;
+    text-align: center;
+    background: #fbabe9;
+    color: #b15997;
+}
+
+#wrapper {
+    margin: auto;
+    text-align: left;
+    width: 780px;
+    height: 750px;
+    position: relative;
+}
+
+h1, h2, div {
+    padding: 0;
+    margin: 0;
+    line-height: 1.2;
+}
+
+p {
+  margin: 0.8em 0;
+}
+
+img {
+    border: 0;
+}
+
+#logo {
+    position: absolute;
+    top: 33px;
+    left: 30px;
+}
+
+#frame {
+    position: absolute;
+    top: 67px;
+    left: 31px;
+    width: 725px;
+    height: 653px;
+    background: url(images/wood.gif);
+}
+
+#backing {
+    position: absolute;
+    top: 27px;
+    left: 24px;
+    width: 676px;
+    height: 599px;
+    background: #ed7dcc;
+}
+
+#nav {
+    position: absolute;
+    top: 37px;
+    left: 15px;
+    width: 247px;
+    height: 358px;
+}
+
+
+#body {
+    position: absolute;
+    background: url(images/body.gif);
+    top: 32px;
+    left: 267px;
+    width: 392px;
+    height: 308px;
+}
+
+#scroll {
+    overflow: auto;
+    margin: 27px;
+    height: 200px;
+}
+
+#greenguy {
+    position: absolute;
+    background: url(images/green_guy.gif);
+    top: 340px;
+    left: 279px;
+    width: 155px;
+    height: 251px;
+}
+
+#purplegal {
+    position: absolute;
+    background: url(images/purple_gal.gif);
+    top: 340px;
+    left: 471px;
+    width: 155px;
+    height: 251px;
+}
+
+#collectnow {
+    position: absolute;
+    background: url(images/collect_now.gif);
+    top: 439px;
+    left: 16px;
+    width: 202px;
+    height: 152px;
+}
+
+#wire {
+    position: absolute;
+    background: url(images/wire.gif);
+    top: 28px;
+    left: 340px;
+    width: 61px;
+    height: 39px;
+}
+
+#copyright {
+	 text-align:center;
+    top: 727px;
+    left: 34px;
+}
+
+.readmore {
+    text-align: right;
+}
+
+a {
+    color: #c93ea1;
+    text-decoration: underline;
+    font-weight: bold;
+}
